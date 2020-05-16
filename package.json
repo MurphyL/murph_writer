@@ -1,0 +1,15 @@
+{
+  "name": "murph_writer",
+  "version": "0.0.1",
+  "description": "写作工具",
+  "main": "main.js",
+  "bin": "./main.js",
+  "author": "murph",
+  "license": "MIT",
+  "dependencies": {
+    "frontmatter": "0.0.3",
+    "jsrender": "^1.0.6",
+    "toml": "^3.0.0",
+    "yargs": "^15.3.1"
+  }
+}
