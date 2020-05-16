@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "description": "写作工具",
   "main": "main.js",
-  "bin": "./main.js",
+  "bin": "src/main.js",
   "author": "murph",
   "license": "MIT",
+  "scripts": {
+    "x": "node src/main.js --config=simples/first"
+  },
   "dependencies": {
     "frontmatter": "0.0.3",
-    "jsrender": "^1.0.6",
+    "lodash": "^4.17.15",
     "toml": "^3.0.0",
     "yargs": "^15.3.1"
   }
